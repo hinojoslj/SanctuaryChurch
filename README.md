@@ -15,9 +15,38 @@
  Always check if a song is in the library first. 
  If you don't know if the song you need has been imported, follow the steps for [Existing Song](/README.md#existing-song) first, then if not found then follow [New Song](/README.md#new-song).
  #### Existing Song:
- Quick steps: ctrl+f -> select library -> type song name 
+ ---
+ Quick steps: ctrl+f -> select library -> type song name
+ 
+ :warning: Songs may be imported multiple times depending if it is a worship song or an altar song. :warning:
+ 
+ Worship Song - To be broadcasted to online services, so it has lower-thirds themes applied. 
+ 
+ Altar Song - NOT to be broadcasted to online services. No lower-thirds themes applied.
+ 
  #### New Song:
- https://learn.renewedvision.com/propresenter/working-with-files#import-songselect
- https://learn.renewedvision.com/propresenter/working-with-files#import-file
+ ---
+ If not in the library, then ctrl+f, switch to SongSelect, and type the song name. Click on any of the results to preview the lyrics of the song. Once you find the song you'd like, click the import button at the bottom. 
+ 
+ For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-songselect).
+ 
+ When you import, the template theme needs to be applied.
+ Below are the settings, we follow at the time of writing (11/2022):
+ 
+ (TODO -- VERIFY)
+ 
+ - Slides delimited by: **_Line Break_**
+ - Delimiters per slide: **_1_** 
+ - Size: **_UPDATE ME_**
+ - Template: **_UPDATE ME_**
+ - Library: **_UPDATE ME_**
+ - Playlist: Whichever playlist you are currently building for, usually Sunday for Sunday church service.
+ 
+ For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-file).
  ### Sermons
+ ---
  ### Guest Speakers
+ ---
+
+## Sanctuary Templates
+ Below are template images, Sanctuary uses for important events throughout the year. Download the template, and build the slide in ProPresenter following the example provided. 
