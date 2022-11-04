@@ -14,8 +14,10 @@
  ### Importing Songs
  Always check if a song is in the library first. 
  If you don't know if the song you need has been imported, follow the steps for [Existing Song](/README.md#existing-song) first, then if not found then follow [New Song](/README.md#new-song).
- #### Existing Song:
+ 
  ---
+ 
+ #### Existing Song:
  Quick steps: ctrl+f -> select library -> type song name
  
  :warning: Songs may be imported multiple times depending if it is a worship song or an altar song. :warning:
@@ -23,9 +25,10 @@
  Worship Song - To be broadcasted to online services, so it has lower-thirds themes applied. 
  
  Altar Song - NOT to be broadcasted to online services. No lower-thirds themes applied.
- 
- #### New Song:
+
  ---
+
+ #### New Song:
  If not in the library, then ctrl+f, switch to SongSelect, and type the song name. Click on any of the results to preview the lyrics of the song. Once you find the song you'd like, click the import button at the bottom. 
  
  For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-songselect).
@@ -43,8 +46,37 @@
  - Playlist: Whichever playlist you are currently building for, usually Sunday for Sunday church service.
  
  For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-file).
- ### Sermons
+ 
  ---
+ 
+### Sermons
+ The best way to build sermons is to build using an existing sermon.
+  >TIP: Try to find a sermon that has the type of items you need. For example, if your sermon needs quotes, verses, and main title points, find a sermon with all those items. It allows you to use quick-edit to modify the text, instead of building a quote slide from scratch. 
+ 
+ Make sure you are in presentations library, then find a sermon to use as a template. ```Right-click``` the sermon file, ```click``` duplicate, or copy, then paste. ```Right-click``` the duplicate sermon and ```click``` rename to the new sermon title with date. 
+ 
+ ---
+ 
+#### Cleaning Up The Sermon (AKA The Quick Build Guide)
+ Delete all previous bible verses. 
+ 
+ > New Sermon Series? Then you probably need to replace the background images. [Go here to read how to replace the images.](/README.md#replacing-the-background-images) 
+
+ Quotes? ```Right-click``` and ```click``` quick edit. Replace the text with the new quote.
+
+ Title Points? ```Right-click``` and ```click``` quick edit. Replace the text with the new title point.
+ 
+ ---
+ 
+ #### Replacing the background images
+ Make sure to have the necessary images downloaded and open them in finder. Also, make sure you have the sermon presentation open in ProPresenter. Next, drag and drop the image into the appropiate slide. 
+ 
+ > TIP: How do you drag and drop? Press and hold the mouse while you drag the file to the propresenter window and release once you are on top of the slide you would like to replace the image of.  
+ 
+ For example, if it is the sermon title slide, drag and drop the new sermon title image into all the sermon title slides.
+ 
+ > TIP: After the first drag, you may get a prompt telling you this image already exists, would you like use existing or replace the image? Click Use Existing, but it doesn't really matter.
+ 
  ### Guest Speakers
  ---
 
