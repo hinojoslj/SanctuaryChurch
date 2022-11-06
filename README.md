@@ -95,9 +95,9 @@ Make sure you are in presentations library, then find a sermon to use as a templ
 
 - Delete all previous bible verses. Select multiple slides by holding down `⌘ cmd` and `click` the slides, then press the `⌫ delete` button. 
 
-- Quotes: `Right-click` and `click` quick edit. Replace the text with the new quote. (Copy-Paste the slide if more quotes slides are needed.) 
+- Quotes: `Right-click` and `click` quick edit. Replace the text with the new quote. (Copy-Paste the slide if more quotes slides are needed.) Check the correct audience look is selected: `right-click` > Edit Actions > Audience Look > Quotes 
 
-- Title Points: `Right-click` and `click` quick edit. Replace the text with the new title point. (Copy-Paste the slide if more quotes slides are needed.)
+- Title Points: `Right-click` and `click` quick edit. Replace the text with the new title point. (Copy-Paste the slide if more quotes slides are needed.) Check the correct audience look is selected: `right-click` > Edit Actions > Audience Look > Major Points (#) Line(s) 
 
 >If your text is not readable with the default text theme and given background you will need to modify the text. Read more how this was fixed in the [FAQ/Troubleshoting](/README.md#replacing-the-background-images). 
 
@@ -109,8 +109,17 @@ Make sure you are in presentations library, then find a sermon to use as a templ
 
 In the bottom-left, `click` Save As... -> Copy to selected presentation. (Saves it to the sermon presentation you have selected.)
 
+- Check Verses: 
+   1. Check the correct audience look is selected: `right-click` > Edit Actions > Audience Look > Verses
+   2. Click through each slide and make sure no text is cut off in the broadcast view. If it is, then you need to reflow it. In the top-left, `click` Reflow (or `ctrl+R`) and set your cursor, or click, the spot in text where you need to create a new slide. Hit `opt + enter` on your keyboard and a new slide should appear. Read more about reflow in [this documentation](https://learn.renewedvision.com/propresenter/working-with-slides#reflow-view).
+
+- Speaker: 
+  1. `right-click` > Themes > Sanctuary Lower Thirds > Pastor Mel (or speaker you need.)
+  2. `right-click` > Edit Actions.. > Audience Look  > Sermon-Pastor Mel (or speaker you need.)
+
 - Reorder your slides. Drag the slides to the correct order you need, following the sermon. 
 - `Right-click` the sermon > Add To.. > Sunday (Or the appropiate playlist you need.)
+- Update [Altar Call](README.md#altar-call-image) and [Sermon Bumper](README.md#sermon-bumper)
 
 ---
 
@@ -134,6 +143,14 @@ Drag and drop the video you want from finder into ProPresenter.
 
 ---
 
+### Altar Call Image
+
+The altar call sermon title is used as a privacy screen to block the broadcast seeing churchgoers as they prey at the altar. To replace the previous image, use the same steps as replacing images.
+
+Drag and drop the image you want from finder into ProPresenter. 
+
+---
+
 ## Updating Themes
 
 The primary reason we update the themes is for bible verses, or for guest speakers.
@@ -148,6 +165,27 @@ To nagivate back to the bible view, click the bible button or `ctl-b`.
 
 
 ### Guest Speakers
+
+Unfortunately, adding guest nameplates are the worst. A theme needs to be created for EACH nameplate, then EACH guest needs their own audience look for broadcast. As more guest are added this has resulted in cluttering the themes, and audience looks. So clean up is often needed by deleting old nameplates and replacing them with new ones. Overall this results in just an overall painful process. A new, more efficient process is drastically needed, but until then below are the steps.
+
+#### Create the Theme
+1. Navigate to the lower-thirds themes and `click` edit
+2. Duplicate (Copy/Paste) a nameplate slide, or use an old existing nameplate as a base
+3. Drag and drop the new nameplate
+4. Delete the old nameplate
+5. `right-click` the slide icon on the left > rename the slide to the name (Naming scheme helps when creating the audience looks!)
+
+#### Create the Audience Look
+6. In the very top navigation bar: Screens > Edit Looks OR `shift + cmd + 1`
+7. Duplicate (Copy/Paste) a nameplate look, or use an old existing nameplate as a base
+8. On the projector column, click the paint swatches icon and select the theme of your nameplate. (Sanctuary Lower Thirds > Guest Nameplate)
+9. Repeat step 8 for livestream column 
+
+#### Applying the Nameplate to a Slide
+10. Navigate to your desired slide (Little lost? Clicking the Show button at the top, might help.)
+11. `right-click` the slide: Themes > Sanctuary Lower Thirds > Guest Nameplate
+11. `right-click` the slide: Add Action > Audience Look > Guest Nameplate
+ > If you cannot Add an Audience Look, then this slide already has an audience look. `right-click` the slide: _EDIT_ Action > Audience Look > Guest Nameplate
 
 ---
 
@@ -165,6 +203,11 @@ The 5 minute countdown will automatically start every Sunday at 10:24:58AM.
 ### 5 Minute Countdown - Broadcast 
 
 The 5 minute countdown will automatically start every Sunday at 10:19:58AM. 
+
+### Changing the color
+
+To change the color of a video or image, `right-click` > Inspector > Effects > `click` + > Adjust Color
+Change the hue until the desired color is achieved. This is not an reliable solution as it cannot match all colors, just most. This is only meant to  help in a pinch. Read more about [effects here](https://learn.renewedvision.com/propresenter/working-with-media#effects-tab) or about [media properties](https://learn.renewedvision.com/propresenter/working-with-media#effects-tab). 
 
 # Sanctuary Templates
 
