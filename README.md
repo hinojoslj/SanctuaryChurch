@@ -12,18 +12,12 @@ Read:
 
 # Building
 
-## Importing Songs
+## Songs
 
 Always check if a song is in the library first.
-If you don't know if the song you need has been imported, follow the steps for [Existing Song](/README.md#existing-song) first, then if not found then follow [New Song](/README.md#new-song).
+If you don't know if the song you need has been imported, follow the steps for [Existing Song](/README.md#importing-an-existing-song) first, then if not found then follow [New Song](/README.md#importing-a-new-song).
 
----
-
-### Existing Song:
-
-Quick steps: ctrl+f -> select library -> type song name
-
-:warning: Songs may be imported multiple times depending if it is a worship song or an altar song. :warning:
+:warning: :warning: *_NOTE:_* Songs will need to be imported TWICE because ProPresenter applies an audience look across all arragements. For example, if a song is need for both worship and altar it should be imported twice each with a seperate arragenment and audience look. Otherwise, if we imported a song once and created two arrangements then you can only apply one audience look once, which is wrong for our broadcast needs.  
 
 Worship Song - To be broadcasted to online services, so it has lower-thirds themes applied.
 
@@ -31,25 +25,53 @@ Altar Song - NOT to be broadcasted to online services. No lower-thirds themes ap
 
 ---
 
-### New Song:
+### Importing an Existing Song:
 
-If not in the library, then ctrl+f, switch to SongSelect, and type the song name. Click on any of the results to preview the lyrics of the song. Once you find the song you'd like, click the import button at the bottom.
+Quick steps: ctrl+f -> select library -> type song name
+
+---
+
+### Importing a New Song:
+
+If not in the library, then `⌘ cmd+f`, switch to SongSelect, and type the song name. Click on any of the results to preview the lyrics of the song. Once you find the song you'd like, click the import button at the bottom.
 
 For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-songselect).
 
 When you import, the template theme needs to be applied.
 Below are the settings, we follow at the time of writing (11/2022):
 
-(TODO -- VERIFY)
-
 - Slides delimited by: **_Line Break_**
 - Delimiters per slide: **_1_**
-- Size: **_UPDATE ME_**
-- Template: **_UPDATE ME_**
-- Library: **_UPDATE ME_**
+- Size: **_1920x1080_**
+- Template: Sanctuary Lyrics > **_No Text Box White Font_**
+- Library: **_Songs_**
 - Playlist: Whichever playlist you are currently building for, usually Sunday for Sunday church service.
 
 For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-file).
+
+---
+
+### Adjusting the arrangement of a song
+
+The worship band presets the arragement for all songs. Song arragements can be accessed from the church dropbox, if you need access talk to Pastor Lisa. 
+
+To change the arrangement of a song, `click` the 3 boxes in the top-right corner. The left drop-down is where you access arragements. If the type of arragement you need does not exist, `click` create a new arrangement. Drag and drop the boxes to build the type of arrangement you need.
+
+Learn more about groups and arrangements [here](https://learn.renewedvision.com/propresenter/working-with-slides#groups-and-arrangements). 
+
+---
+
+### Setting the Audience Looks of a song
+
+As previously said, Worship arrangement will be broadcasted and Altar is not to be broadcasted. To achieve this, different audience looks are used. 
+
+#### Worship Arrangement
+
+Select all the lyrics, `⌘ cmd+a`, then `right-click` Add Action > Audience Look > Songs - Single Line.
+
+#### Altar Arrangement
+
+Select all the lyrics, `⌘ cmd+a`, then `right-click` Add Action > Audience Look > Not in Livestream
 
 ---
 
@@ -129,6 +151,21 @@ To nagivate back to the bible view, click the bible button or `ctl-b`.
 
 ---
 
-## Sanctuary Templates
+# FYI
+
+## Scheduled Events
+
+ProPresenter has a calendar feature you can schedule events to start automatically. Below are the 2 countdowns we have scheduled to start. [Read the documentation here.](https://learn.renewedvision.com/propresenter/other-features#calendar)
+
+### 5 Minute Countdown
+
+The 5 minute countdown will automatically start every Sunday at 10:24:58AM. 
+
+
+### 5 Minute Countdown - Broadcast 
+
+The 5 minute countdown will automatically start every Sunday at 10:19:58AM. 
+
+# Sanctuary Templates
 
 Below are template images, Sanctuary uses for important events throughout the year. Download the template, and build the slide in ProPresenter following the example provided.
