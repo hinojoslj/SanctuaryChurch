@@ -25,13 +25,13 @@ Altar Song - NOT to be broadcasted to online services. No lower-thirds themes ap
 
 ---
 
-### Importing an Existing Song:
+### Importing an Existing Song
 
 Quick steps: ctrl+f -> select library -> type song name
 
 ---
 
-### Importing a New Song:
+### Importing a New Song
 
 If not in the library, then `⌘ cmd+f`, switch to SongSelect, and type the song name. Click on any of the results to preview the lyrics of the song. Once you find the song you'd like, click the import button at the bottom.
 
@@ -48,6 +48,13 @@ Below are the settings, we follow at the time of writing (11/2022):
 - Playlist: Whichever playlist you are currently building for, usually Sunday for Sunday church service.
 
 For a more detailed walkthrough, [read this documentation](https://learn.renewedvision.com/propresenter/working-with-files#import-file).
+
+#### Formatting a New Song
+
+ 1. Select all the slides, `cmd + a`, and `right-click` Themes > Sanctuary Lyrics > No Text Box White Font
+ 2. _If Worship Song:_ From another worship song, copy the background which should have 6 icons, and paste into your song.
+ 3. _If Altar Song:_ From another altar song, copy the background which should have 3 icons, and paste into your song.
+ 4. Remove blank slides from showing up in broadcast: Hold `cmd` and click all blank slides > `right-click` Add Action.. > Audience Look > Not in Livestream 
 
 ---
 
