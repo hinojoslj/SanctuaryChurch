@@ -59,7 +59,7 @@ The best way to build a sermon is to build off an existing sermon. Below is the 
 
 ---
 
-### Quick Build Guide
+### Build Guide
 
 Summary: Duplicate an old sermon. Replace necessary images. Delete old verses. Quick edit any quotes and main title verses, and copy-paste more slides if needed. Add bible verses.
 
@@ -71,15 +71,24 @@ Make sure you are in presentations library, then find a sermon to use as a templ
 
 > New Sermon Series? Then you probably need to replace the background images. [Go here to read how to replace the images.](/README.md#replacing-the-background-images)
 
-- Delete all previous bible verses.
+- Delete all previous bible verses. Select multiple slides by holding down `⌘ cmd` and `click` the slides, then press the `⌫ delete` button. 
 
-- Quotes: `Right-click` and `click` quick edit. Replace the text with the new quote. (Copy-Paste the slide if more quotes slides are needed.)
+- Quotes: `Right-click` and `click` quick edit. Replace the text with the new quote. (Copy-Paste the slide if more quotes slides are needed.) 
 
 - Title Points: `Right-click` and `click` quick edit. Replace the text with the new title point. (Copy-Paste the slide if more quotes slides are needed.)
 
-- Verses: `Click` the Bible icon in the Toolbar, or `ctrl+b`. Type the verse(s) needed, verify the bible version. Make sure the correct bible theme is selected. In the bottom-left, `click` Save As... -> Copy to selected presentation. (Saves it to the sermon presentation you have selected.)
+>If your text is not readable with the default text theme and given background you will need to modify the text. Read more how this was fixed in the [FAQ/Troubleshoting](/README.md#replacing-the-background-images). 
 
-> If you do not see the theme you need, you may need to update the theme. Don't know how to do that? [Follow the step-by-step here](/README.md#replacing-the-background-images).
+- Verses: `Click` the Bible icon in the Toolbar, or `ctrl+b`. Type the verse(s) needed, verify the bible version. 
+
+> On the rare occasion, a bible verse is requested but not available in ProPresenter (e.g. NCV), then copy-paste the verse requested. Otherwise, check if the pastor/presentor wants to use that exact version or if they would like another version to be used.
+
+**Make sure the correct bible theme is selected.** If you do not see the theme you need, you may need to update the theme. Don't know how to do that? [Follow the step-by-step here](/README.md#how-to-update-the-bible-theme).
+
+In the bottom-left, `click` Save As... -> Copy to selected presentation. (Saves it to the sermon presentation you have selected.)
+
+- Reorder your slides. Drag the slides to the correct order you need, following the sermon. 
+- `Right-click` the sermon > Add To.. > Sunday (Or the appropiate playlist you need.)
 
 ---
 
@@ -93,11 +102,30 @@ For example, if it is the sermon title slide, drag and drop the new sermon title
 
 > TIP: After the first drag, you may get a prompt telling you this image already exists, would you like use existing or replace the image? Click Use Existing, but it doesn't really matter.
 
-### Updating Themes
+---
+
+### Sermon Bumper
+
+The sermon bumper is a 30-second video introducing the sermon series. To replace the previous video, use the same steps as replacing images.
+
+Drag and drop the video you want from finder into ProPresenter. 
+
+---
+
+## Updating Themes
 
 The primary reason we update the themes is for bible verses, or for guest speakers.
 
-## Guest Speakers
+### How to update the bible theme?
+
+`click` Options in the top-right. In this example, the Sunday theme is an old version so we need to update it. `click` Edit as the bottom most option. Find the Sunday theme, and drag and drop the image. Center the image, and drag the image in the objects window to be the last item.
+
+>If the text is hard to read, use Sunday - Version 2 theme. It should be the below Sunday but Sunday - Version 2 is the same as Sunday theme with the addition of a black transparency box to help darken the background image to help with readability. 
+
+To nagivate back to the bible view, click the bible button or `ctl-b`.
+
+
+### Guest Speakers
 
 ---
 
